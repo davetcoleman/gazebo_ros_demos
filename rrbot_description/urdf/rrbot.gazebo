@@ -9,6 +9,11 @@
     </plugin>
   </gazebo>
 
+  <!-- Robot Model -->
+  <gazebo reference="">
+    <self_collide>1</self_collide>
+  </gazebo>
+
   <!-- Link1 -->
   <gazebo reference="link1">
     <material>Gazebo/Orange</material>
